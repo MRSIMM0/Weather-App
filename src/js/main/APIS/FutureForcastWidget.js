@@ -1,14 +1,12 @@
 import React from "react";
 import axios from "axios";
 import FutureForcast from "../MediaComponents/FutureFrocast";
-
-
-const apiKey = "a5833451def4ba5a935882f9bd278e28";
+import { apiKey } from "./api-key";
 
 class WeatherWidget extends React.Component {
   constructor(props) {
     super(props);
-    
+
     this.state = { forecast: [{}] };
   }
 

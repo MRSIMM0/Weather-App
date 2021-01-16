@@ -2,8 +2,7 @@ import React from "react";
 import axios from "axios";
 
 import MediaCard from "../MediaComponents/MediaCard";
-
-const apiKey = "a5833451def4ba5a935882f9bd278e28";
+import { apiKey } from "./api-key";
 
 class WeatherWidget extends React.Component {
   constructor(props) {
