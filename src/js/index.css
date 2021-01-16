@@ -1,0 +1,47 @@
+body{
+  background-color: rgba(202, 202, 202, 0.582);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-stretch: semi-condensed;
+}
+
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.res{
+  width: 1444px;
+}
+
+.nav{
+  background-color: rgba(202, 202, 202, 0.582);
+   height: "0.2rem";
+
+  }
+
+.dragabble{
+  -webkit-app-region: drag
+}
+
+.menu-font{
+   background-color: rgba(202, 202, 202, 0.582);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-stretch: semi-condensed;
+}
+
+.exit, .minim, .resize {
+  color: rgba(102, 102, 102, 0.582);
+  cursor: pointer;
+}
+
+.exit:hover, .minim:hover,.resize:hover{
+ color: rgba(88, 88, 88, 0.856)
+}
+
+
+
