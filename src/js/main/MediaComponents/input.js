@@ -13,7 +13,11 @@ export default function InputLoc(props) {
   }));
   console.log(props);
   return (
-    <form className={(useStyles.root, "mt-2")} noValidate autoComplete="off">
+    <form
+      className={(useStyles.root, "mt-2 mb-3")}
+      noValidate
+      autoComplete="off"
+    >
       <TextField
         onInput={(e) => {
           console.log(e.target.value);

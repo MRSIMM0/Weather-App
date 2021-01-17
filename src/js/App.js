@@ -24,7 +24,10 @@ class App extends React.Component {
               alignItems: "center",
             }}
           >
-            <InputLoc loc={sessionStorage.getItem("location")}></InputLoc>
+            <InputLoc
+              loc={sessionStorage.getItem("location")}
+              
+            ></InputLoc>
           </div>
           <div
             style={{

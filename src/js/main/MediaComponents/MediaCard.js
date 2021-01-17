@@ -67,14 +67,14 @@ export default function MediaCard({
       </CardMedia>
       <CardContent>
         <Typography variant="subtitle1" gutterBottom>
-          <div className="row-cols-auto">
-            <div className="col">
-              <a> Temp Max: {temp_max}</a>
-              <a className="ml-5 text-dark"> Temp Min: {temp_min}</a>
+          <div className="col-rows-2">
+            <div className="row">
+              <p className="ml-4"> Temp Max: {temp_max}</p>
+              <p className="ml-5 text-dark"> Temp Min: {temp_min}</p>
             </div>
-            <div className="col">
-              <a> Pressure: {pressure} hPa</a>
-              <a className="ml-2 text-dark"> Humidity: {humidity}%</a>
+            <div className="row">
+              <p className="ml-4"> Pressure: {pressure} hPa</p>
+              <p className="ml-3 text-dark"> Humidity: {humidity}%</p>
             </div>
           </div>
         </Typography>
