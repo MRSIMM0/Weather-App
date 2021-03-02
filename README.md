@@ -1,4 +1,4 @@
 # Weather-App
-Desktop application created using electron ,react and Open Weather Api
+Desktop application created using Electron, React and Open Weather Api
 
 
